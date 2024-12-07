@@ -1,0 +1,34 @@
+.capa_container {
+    background-image: url('../../../public/capa.png');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 90vh;
+}
+
+.capa_container .capa_conteudo {
+    width: 51%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+}
+
+.capa_conteudo div {
+    max-width: 500px;
+}
+
+.capa_conteudo h1 {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 50px;
+    line-height: 60px;
+    letter-spacing: 5px;
+}
+
+.capa_conteudo p {
+    color: #c4c4c4;
+    font-size: 24px;
+    line-height: 60px;
+}
