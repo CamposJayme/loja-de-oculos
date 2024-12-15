@@ -1,0 +1,61 @@
+.secao_contatos {
+    background-color: #05031b;
+    width: 100%;
+    padding: 100px 20px;
+    color: #fff;
+}
+
+.container_contatos {
+    max-width: 1024px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.texto_contatos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.texto_contatos h2 {
+    margin-bottom: 10px;
+}
+
+.cards_contatos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.cards_contatos div {
+    border: 1px solid gray;
+    border-radius: 4px;
+    padding: 20px;
+    width: 100%;
+    max-width: 350px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.cards_contatos div ul {
+    list-style: none;
+}
+
+.cards_contatos div ul li {
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.cards_contatos div ul li img {
+    width: 25px;
+    height: 30px;
+}
+
+.cards_contatos div ul li span {
+    margin-left: 10px;
+}
