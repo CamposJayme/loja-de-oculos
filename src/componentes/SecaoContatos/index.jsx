@@ -20,15 +20,21 @@ export default function SecaoContatos() {
                         <h3>Nossos Contatos</h3>
                         <ul>
                             <li>
-                                <Image src={Local}/>
+                                <a href="#">
+                                    <Image src={Local}/>
+                                </a>
                                 <span>Nova Iguaçu, RJ</span>
                             </li>
                             <li>
-                                <Image src={Telefone}/>
+                                <a href="#">
+                                    <Image src={Telefone}/>
+                                </a>
                                 <span>(21) 9999-9999</span>
                             </li>
                             <li>
-                                <Image src={Email}/>
+                                <a href="#">
+                                    <Image src={Email}/>
+                                </a>
                                 <span>contato@oticavida.com</span>
                             </li>
                         </ul>
@@ -37,15 +43,21 @@ export default function SecaoContatos() {
                         <h3>Nossas Redes Sociais</h3>
                         <ul>
                             <li>
-                                <Image src={Facebook}/>
+                                <a href="#">
+                                    <Image src={Facebook}/>
+                                </a>
                                 <span>/OticaVida</span>
                             </li>
                             <li>
-                                <Image src={Instagram}/>
+                                <a href="#">
+                                    <Image src={Instagram}/>
+                                </a>
                                 <span>@oticavidarj</span>
                             </li>
                             <li>
-                                <Image src={Twitter}/>
+                                <a href="#">
+                                    <Image src={Twitter}/>
+                                </a>
                                 <span>@oticavidarj</span>
                             </li>
                         </ul>
