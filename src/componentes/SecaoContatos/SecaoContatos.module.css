@@ -60,3 +60,13 @@
 .cards_contatos div ul li span {
     margin-left: 10px;
 }
+
+@media (max-width: 1024px) {
+    .texto_contatos h2 {
+        font-size: 32px;
+    }
+
+    .texto_contatos p {
+        font-size: 14px;
+    }
+}
