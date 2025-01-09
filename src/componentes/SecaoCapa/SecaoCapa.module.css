@@ -39,6 +39,27 @@
     }
 
     .capa_conteudo div {
+        margin-left: 15px;
         background-color: #000000ad;
     }
 }
+
+@media (max-width: 768px) {
+    .capa_container {
+        background-position: 92%;
+    }
+
+    .capa_conteudo div p {
+        font-size: 18px;
+        line-height: 14px;
+    }
+
+    .capa_conteudo div h1 {
+        font-weight: 500;
+        font-size: 46px;
+        line-height: 65px;
+        margin: 20px 0;
+    }
+
+}
+

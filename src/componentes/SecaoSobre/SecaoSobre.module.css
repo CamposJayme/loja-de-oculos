@@ -38,6 +38,20 @@
     height: 100%;
 }
 
+.sobre_cards {
+    border: 1px solid #4a4a4a;
+}
+
+.card_img:first-child {
+    border-right: 2px solid #4a4a4a;
+    border-bottom: 2px solid #4a4a4a;
+}
+
+.card_img:last-child {
+    border-left: 2px solid #4a4a4a;
+    border-top: 2px solid #4a4a4a;
+}
+
 .card_texto {
     background-color: #fff;
     display: flex;
@@ -60,3 +74,10 @@
     text-align: center;
 }
 
+@media (max-width: 768px) {
+    .secao_sobre {
+        padding: 60px 20px;
+    }
+
+    
+}

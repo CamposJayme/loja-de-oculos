@@ -25,7 +25,7 @@
 }
 
 .produtos_card div {
-    background-color: #f6f6f6;
+    background-color: #ffffff;
     width: 400px;
     height: 190px;
     padding: 20px 10px;
@@ -72,5 +72,20 @@
     .produtos_card div {
         width: 440px;
         height: 200px;
+    }
+}
+
+@media (max-width: 768px) {
+    .secao_produtos {
+        padding: 60px 0;
+    }
+
+    .produtos_card div {
+        width: 560px;
+        height: 210px;
+    }
+
+    .produtos_card div span {
+        font-weight: bold;
     }
 }
