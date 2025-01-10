@@ -62,7 +62,7 @@
     }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 425px) {
     .capa_container .capa_conteudo {
         width: 90%;
         margin: 0 auto;
