@@ -60,6 +60,15 @@
         line-height: 65px;
         margin: 20px 0;
     }
-
 }
 
+@media (max-width: 375px) {
+    .capa_container .capa_conteudo {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .capa_conteudo div {
+        margin-left: 0px;
+    }
+}

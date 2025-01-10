@@ -89,3 +89,22 @@
         font-weight: bold;
     }
 }
+
+@media (max-width: 375px) {
+    .secao_produtos {
+        padding: 40px 10px;
+    }
+
+    .produtos_card {
+        padding: 0 10px;
+    }
+
+    .produtos_card div {
+        height: 190px;
+    }
+
+    .produtos_info {
+        padding: 0 19px;
+        text-align: center;
+    }
+}
